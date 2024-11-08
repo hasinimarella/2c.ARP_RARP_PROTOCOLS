@@ -43,7 +43,7 @@ while True:
  s.send(ip.encode())
  print("MAC Address",s.recv(1024).decode())
 ```
-## OUPUT - ARP
+## OUTPUT - ARP
 
 CLIENT:
 ![alt text](<image cn.png>)
@@ -80,7 +80,7 @@ while True:
  print("Logical Address",s.recv(1024).decode())
 ```
 
-## OUPUT -RARP
+## OUTPUT -RARP
 
 CLIENT:
 ![alt text](<cn 2.png>)
